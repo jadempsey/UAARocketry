@@ -1,0 +1,107 @@
+\hypertarget{extras_8php}{}\section{C\+:/\+Apache24/htdocs/jacobschaos/wp-\/content/themes/rocketry/inc/extras.php File Reference}
+\label{extras_8php}\index{C\+:/\+Apache24/htdocs/jacobschaos/wp-\/content/themes/rocketry/inc/extras.\+php@{C\+:/\+Apache24/htdocs/jacobschaos/wp-\/content/themes/rocketry/inc/extras.\+php}}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespace_rocketry}{Rocketry}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{extras_8php_a56db2cf844dadf37db6011a9db79a445}{rocketry\+\_\+page\+\_\+menu\+\_\+args} (\$args)
+\item 
+\hyperlink{extras_8php_ad9a21025d1412cb5ed6a26e1085af713}{rocketry\+\_\+body\+\_\+classes} (\$classes)
+\item 
+\hyperlink{extras_8php_aa15202ce7cb889459efacf8a77618f99}{rocketry\+\_\+wp\+\_\+title} (\$title, \$sep)
+\item 
+\hyperlink{extras_8php_a036821036e692ea8a167aeabb9f13ef9}{rocketry\+\_\+setup\+\_\+author} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{extras_8php_ad9a21025d1412cb5ed6a26e1085af713}{}\index{extras.\+php@{extras.\+php}!rocketry\+\_\+body\+\_\+classes@{rocketry\+\_\+body\+\_\+classes}}
+\index{rocketry\+\_\+body\+\_\+classes@{rocketry\+\_\+body\+\_\+classes}!extras.\+php@{extras.\+php}}
+\subsubsection[{rocketry\+\_\+body\+\_\+classes}]{\setlength{\rightskip}{0pt plus 5cm}rocketry\+\_\+body\+\_\+classes (
+\begin{DoxyParamCaption}
+\item[{}]{\$classes}
+\end{DoxyParamCaption}
+)}\label{extras_8php_ad9a21025d1412cb5ed6a26e1085af713}
+Adds custom classes to the array of body classes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$classes} & Classes for the body element. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 28 of file extras.\+php.
+
+\hypertarget{extras_8php_a56db2cf844dadf37db6011a9db79a445}{}\index{extras.\+php@{extras.\+php}!rocketry\+\_\+page\+\_\+menu\+\_\+args@{rocketry\+\_\+page\+\_\+menu\+\_\+args}}
+\index{rocketry\+\_\+page\+\_\+menu\+\_\+args@{rocketry\+\_\+page\+\_\+menu\+\_\+args}!extras.\+php@{extras.\+php}}
+\subsubsection[{rocketry\+\_\+page\+\_\+menu\+\_\+args}]{\setlength{\rightskip}{0pt plus 5cm}rocketry\+\_\+page\+\_\+menu\+\_\+args (
+\begin{DoxyParamCaption}
+\item[{}]{\$args}
+\end{DoxyParamCaption}
+)}\label{extras_8php_a56db2cf844dadf37db6011a9db79a445}
+Get our wp\+\_\+nav\+\_\+menu() fallback, wp\+\_\+page\+\_\+menu(), to show a home link.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$args} & Configuration arguments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 16 of file extras.\+php.
+
+\hypertarget{extras_8php_a036821036e692ea8a167aeabb9f13ef9}{}\index{extras.\+php@{extras.\+php}!rocketry\+\_\+setup\+\_\+author@{rocketry\+\_\+setup\+\_\+author}}
+\index{rocketry\+\_\+setup\+\_\+author@{rocketry\+\_\+setup\+\_\+author}!extras.\+php@{extras.\+php}}
+\subsubsection[{rocketry\+\_\+setup\+\_\+author}]{\setlength{\rightskip}{0pt plus 5cm}rocketry\+\_\+setup\+\_\+author (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{extras_8php_a036821036e692ea8a167aeabb9f13ef9}
+Sets the authordata global when viewing an author archive.
+
+This provides backwards compatibility with \href{http://core.trac.wordpress.org/changeset/25574}{\tt http\+://core.\+trac.\+wordpress.\+org/changeset/25574}
+
+It removes the need to call the\+\_\+post() and rewind\+\_\+posts() in an author template to print information about the author.
+
+W\+P\+\_\+\+Query \$wp\+\_\+query Word\+Press Query object. \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 82 of file extras.\+php.
+
+\hypertarget{extras_8php_aa15202ce7cb889459efacf8a77618f99}{}\index{extras.\+php@{extras.\+php}!rocketry\+\_\+wp\+\_\+title@{rocketry\+\_\+wp\+\_\+title}}
+\index{rocketry\+\_\+wp\+\_\+title@{rocketry\+\_\+wp\+\_\+title}!extras.\+php@{extras.\+php}}
+\subsubsection[{rocketry\+\_\+wp\+\_\+title}]{\setlength{\rightskip}{0pt plus 5cm}rocketry\+\_\+wp\+\_\+title (
+\begin{DoxyParamCaption}
+\item[{}]{\$title, }
+\item[{}]{\$sep}
+\end{DoxyParamCaption}
+)}\label{extras_8php_aa15202ce7cb889459efacf8a77618f99}
+Filters wp\+\_\+title to print a neat $<$title$>$ tag based on what is being viewed.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$title} & Default title text for current view. \\
+\hline
+string & {\em \$sep} & Optional separator. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The filtered title. 
+\end{DoxyReturn}
+
+
+Definition at line 45 of file extras.\+php.
+

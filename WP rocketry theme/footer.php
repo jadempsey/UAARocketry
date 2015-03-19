@@ -26,6 +26,9 @@
 	<a href="http://www.reidmiddleton.com"><img class="donor" src='/wp-content/themes/rocketry/images/reidmiddleton.jpg'></a>
 	<a href="http://www.solidworks.com"><img class="donor" src='/wp-content/themes/rocketry/images/SolidWorks.png'></a>
 	<a href="http://spacegrant.alaska.edu"><img class="donor" src='/wp-content/themes/rocketry/images/AKSpaceGrant.jpg'></a>
+	<a href="http://CustomMousePad.com"><img class="donor" src='/wp-content/themes/rocketry/images/CustomEverything.jpg'></a>
+	<a href="http://www.uaa.alaska.edu/honorscollege/"><img class="donor" src='/wp-content/themes/rocketry/images/UAAHonorsCollege.jpg'></a>
+	<a href="http://www.alaskaair.com/"><img class="donor" src='/wp-content/themes/rocketry/images/alaskaairlines.jpg'></a>
 	<br>
 </div>
 <!-- end of horizon element -->
